@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head lang="en" >
     <title>Page Title</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,7 +17,7 @@
 <!-- Navigation Bar -->
 <div class="navbar">
     <a href="#">music</a>
-	<a href="#">Edward</a>
+	<a href="Php/edward.php">Edward</a>
 	<a href="Php/From.php">Add File</a>
 </div>
 
