@@ -18,7 +18,7 @@
 <div class="navbar">
     <a href="#">music</a>
 	<a href="#">Edward</a>
-	<a href="php/From.php">Add File</a>
+	<a href="Php/From.php">Add File</a>
 </div>
 
 <!-- The flexible grid (content) -->
