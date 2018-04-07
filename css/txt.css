@@ -20,7 +20,16 @@ body {
 .navbar {
     display: flex;
     background-color: #333;
-}
+	-webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+	-webkit-box-pack: justify;
+     -ms-flex-pack: justify;
+     justify-content: space-between;
+
+	}
+
+
 
 /* Style the navigation bar links */
 .navbar a {
