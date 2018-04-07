@@ -16,9 +16,19 @@
 
 <!-- Navigation Bar -->
 <div class="navbar">
-    <a href="#">music</a>
+	<a href="#">music</a>
+	
 	<a href="Php/edward.php">Edward</a>
 	<a href="Php/From.php">Add File</a>
+	<div class="dropdown">
+    <button class="dropbtn">info 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">about</a>
+      <a href="#">contact</a>
+    </div>
+  </div>
 </div>
 
 <!-- The flexible grid (content) -->
