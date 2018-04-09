@@ -4,6 +4,7 @@
     <title>Page Title</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+	
     <link rel="stylesheet" href="css/txt.css">
 </head>
 <body>
@@ -28,7 +29,29 @@
       <a href="#">about</a>
       <a href="#">contact</a>
     </div>
+	
   </div>
+  <div class="slidecontainer">
+  <input type="range" min="1" max="2" value="1" class="slider" id="myRange">
+  <p>Value: <span id="demo"></span></p>
+</div>
+
+<script>
+
+var slider = document.getElementById("myRange");
+var output = document.getElementById("demo");
+output.innerHTML = slider.value;
+
+slider.oninput = function() {
+  output.innerHTML = this.value;
+if (slider.value = 1){
+	output.innerHTML = night;
+}
+else {
+	output.innerHTML = day;
+}
+}
+</script>
 </div>
 
 <!-- The flexible grid (content) -->
