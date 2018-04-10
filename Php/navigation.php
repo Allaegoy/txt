@@ -14,7 +14,7 @@
 
   </div>
   <div class="slidecontainer">
-  <input type="range" min="1" max="2" value="1" class="slider" id="myRange">
+  <input type="range" min="1" max="2" value="0" class="slider" id="myRange">
   <p>Value: <span id="demo"></span></p>
 </div>
 
@@ -22,14 +22,14 @@
 
 var slider = document.getElementById("myRange");
 var output = document.getElementById("demo");
-output.innerHTML = slider.value;
+output.innerHTML = "day";
 
 slider.oninput = function() {
 if (slider.value == 1){
-	output.innerHTML = "night";
+	output.innerHTML = "day";
 }
 else {
-	output.innerHTML = "day";
+	output.innerHTML = "night";
 }
 }
 </script>
