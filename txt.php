@@ -43,12 +43,11 @@ var output = document.getElementById("demo");
 output.innerHTML = slider.value;
 
 slider.oninput = function() {
-  output.innerHTML = this.value;
-if (slider.value = 1){
-	output.innerHTML = night;
+if (slider.value == 1){
+	output.innerHTML = "night";
 }
 else {
-	output.innerHTML = day;
+	output.innerHTML = "day";
 }
 }
 </script>
