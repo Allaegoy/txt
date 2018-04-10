@@ -12,7 +12,7 @@
 
 <!-- Header -->
 <?php
-include "Php\\header.php";
+include "Php\\HeaderIndex.php";
 ?>
 
 <!-- Navigation Bar -->
@@ -22,12 +22,12 @@ include "Php\\navigation.php";
 
 <!-- The flexible grid (content) -->
 <?php
-include "Php\\content.php";
+include "Php\\ContentIndex.php";
 ?>
 
 <!-- Footer -->
 <?php
-include "Php\\footer.php";
+include "Php\\FooterIndex.php";
 ?>
 
 
