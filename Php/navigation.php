@@ -1,3 +1,8 @@
+<?php
+	// Start Session
+	session_start();
+?>
+
 <div class="navbar">
 	<a href="#">music</a>
 
@@ -27,9 +32,11 @@ output.innerHTML = "day";
 slider.oninput = function() {
 if (slider.value == 1){
 	output.innerHTML = "day";
+	$_SESSION['bookmarks'] = false;
 }
 else {
 	output.innerHTML = "night";
+	$_SESSION['bookmarks'] = true;
 }
 }
 </script>
