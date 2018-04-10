@@ -152,17 +152,18 @@ body {
 .slider::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
-    width: 23px;
-    height: 24px;
+    width: 16px;
+    height: 16px;
     border: 0;
-    background: url('../pix/bol.jpg');
+    background: red;
     cursor: pointer;
+	border-radius: 50%;
 }
 
 .slider::-moz-range-thumb {
     width: 23px;
     height: 24px;
     border: 0;
-    background: url('contrasticon.png');
+    background: #ffffff;
     cursor: pointer;
 }
