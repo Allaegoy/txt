@@ -32,6 +32,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	
     <link rel="stylesheet" href="css/txt.css">
+	<link rel="stylesheet" href="css/navbar.css">
+	<link rel="stylesheet" href="css/slider.css">
 </head>
 <body>
 
