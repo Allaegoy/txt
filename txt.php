@@ -4,15 +4,21 @@
 	
 	// Set nightmode css for the first time
 	if(!isset($_SESSION['nightmode'])){
-		$_SESSION['bookmarks'] = false;
-	}
-	
-	// Set css-file based on nightmode
-	if(isset($_SESSION['nightmode']) && $_SESSION['nightmode'] == true){
-		$nightmode = "night.css";
-	} else if(isset($_SESSION['nightmode']) && $_SESSION['nightmode'] == false) {
+		$message = "first time session set";
+		echo "<script type='text/javascript'>alert('$message');</script>";
+		$_SESSION['nightmode'] = 0;
 		$nightmode = "day.css";
+	}else{
+		// Set css-file based on nightmode for subsequent times
+		if($_SESSION['nightmode'] == 1){
+			$nightmode = "night.css";
+		} else if($_SESSION['nightmode'] == 0) {
+			$nightmode = "day.css";
+		}
 	}
+	echo $nightmode;
+	$temp = $_SESSION['nightmode'];
+	echo "<script type='text/javascript'>alert('value SESSION at the very start: $temp');</script>";
 ?>
 
 <!DOCTYPE html>
