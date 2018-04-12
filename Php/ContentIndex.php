@@ -1,4 +1,14 @@
 <div class="row">
+<script>
+	(function(d, s, id) { 
+	var js, djs = d.getElementsByTagName(s)[0];
+	if (d.getElementById(id)) return; 
+	js = d.createElement(s); js.id = id; 
+	js.src = "https://e-cdns-files.dzcdn.net/js/widget/loader.js"; 
+	 djs.parentNode.insertBefore(js, djs);
+}(document, "script", "deezer-widget-loader"));</script>
+
+<div class="deezer-widget-player" data-src="https://www.deezer.com/plugins/player?format=classic&autoplay=false&playlist=true&width=700&height=350&color=007FEB&layout=dark&size=medium&type=playlist&id=1681167301&app_id=1" data-scrolling="no" data-frameborder="0" data-allowTransparency="true" data-width="700" data-height="350"></div>
     <div class="side">
         <h2>About Us</h2>
         <h5>Photo of Us:</h5>
