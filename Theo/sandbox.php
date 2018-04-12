@@ -1,10 +1,8 @@
-
 <?php
-$mode = "day";
-if(isset($_GET['mode']) ){
-	$mode = $_GET['mode'];
-}
+// Start Session
+session_start();
 ?>
+
 
 <!DOCTYPE html>
 <html>
@@ -14,12 +12,20 @@ if(isset($_GET['mode']) ){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	
+	<?php
+	if(isset($_SESSION['mode']) ){
+		$mode = $_SESSION['mode'];
+	}else{
+		$mode = "day";
+	}
+	?>
+	
     <link rel="stylesheet" href="css/<<?php echo $mode; ?>/txt.css">
 	<link rel="stylesheet" href="css/<?php echo $mode; ?>/navbar.css">
 	<link rel="stylesheet" href="css/<?php echo $mode; ?>/mode.css">
+	
 </head>
 <body>
-<?php echo $mode; ?>
 
 <!-- Header -->
 <?php

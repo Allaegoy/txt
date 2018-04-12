@@ -4,7 +4,7 @@
 <html>
 <head lang="en" >
 	
-	<link rel="stylesheet" type="css/<?php echo nightmode ?>" href="theme.css">
+	<link rel="stylesheet" type="css/day.css" href="theme.css">
     
 	<title>Unicorn pasta</title>
     <meta charset="UTF-8">
