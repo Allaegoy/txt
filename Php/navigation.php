@@ -18,9 +18,9 @@
 		<i class="fa fa-caret-down"></i>
 		</button>
 		<div class="dropdown-content">
-			<a href="#">Night-mode</a>
-			<a href="#">Day-mode</a>
-			<a href="#">Rainbow-mode</a>
+			<a href="Php/stylemode.php/?mode=night">Night-mode</a>
+			<a href="Php/stylemode.php/?mode=day">Day-mode</a>
+			<a href="Php/stylemode.php/?mode=rainbow">Rainbow-mode</a>
 		</div>
 	</div>
 	</script>
