@@ -29,11 +29,7 @@
 }
 #loginbox{
 	
-	background-color: red;   
-    height: 100%;
-	position: absolute;
-    top: 50%;
-    left: 50%;
+	font-size: 60%;
 }
 </style>
 </head>
@@ -42,10 +38,10 @@
 <div id="overlay" onclick="off()">
 
 
-<div id="loginbox">
+<div id="text">
  <form action="welcome.php" method="post">
-Name: <input type="text" name="name"><br>
-E-mail: <input type="text" name="email"><br>
+Name: <input id="loginbox" type="text" name="name"><br>
+password: <input id="loginbox" type="password" name="email"><br>
 <input type="submit">
 </form>
 
