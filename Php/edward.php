@@ -35,7 +35,26 @@
     
   </div>
   
-</div>
+
   
+
+<div id="overlay" onclick="off()">
+  <div id="text">Overlay Text</div>
 </div>
+
+<div style="padding:20px">
+  <h2>Overlay with Text</h2>
+  <button onclick="on()">Turn on overlay effect</button>
+</div>
+
+<script>
+function on() {
+    document.getElementById("overlay").style.display = "block";
+}
+
+function off() {
+    document.getElementById("overlay").style.display = "none";
+}
+</script>
+     </body>
 </html>
