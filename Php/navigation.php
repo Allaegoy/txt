@@ -27,7 +27,7 @@
 		
 		<input type="range" min="0" max="2" value="0" class="slider" id="myRange" name="nightslider">
 		</form> 
-		<p>Value: <span id="demo"></span></p>
+		<p><span class="rainbow">Value: <span id="demo"></span></span></p>
 	</div>
 <script>
 	var slider = document.getElementById("myRange");
