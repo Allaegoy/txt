@@ -23,10 +23,5 @@
 			<a href="#">Rainbow-mode</a>
 		</div>
 	</div>
-
-
-	slider.oninput = showNightmodeSliderText;
-	showNightmodeSliderText();
-
 	</script>
 </div>
