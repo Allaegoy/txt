@@ -1,6 +1,6 @@
 
 <div class="navbar">
-	<a href="#">music</a>
+	<a href="Php/Music.php">music</a>
 	<a href="Php/edward.php">Edward</a>
 	<a href="Php/From.php">Add File</a>
 	<div class="dropdown">
