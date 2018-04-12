@@ -20,7 +20,7 @@ session_start();
 	}
 	?>
 	
-    <link rel="stylesheet" href="css/txt.css">
+    <link rel="stylesheet" href="csss/txt.css">
 	<link rel="stylesheet" href="css/<?php echo $mode; ?>/navbar.css">
 	<link rel="stylesheet" href="css/<?php echo $mode; ?>/mode.css">
 	
