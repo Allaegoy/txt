@@ -53,6 +53,9 @@ include "Php\\FooterIndex.php";
   <source src="music/Welshly Arms - Legendary.mp3" type="audio/mpeg">
 Your browser does not support the audio element.
 </audio>
-
+<audio controls>
+  <source src="music/Welshly Arms - Legendary.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
 </body>
 </html>
