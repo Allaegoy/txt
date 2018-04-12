@@ -9,4 +9,5 @@ if(isset($_GET['mode']) ){
 	$_SESSION['mode'] = $_GET['mode'];
 }
 header( 'Location: ../txt.php' );
+die();
 ?>
