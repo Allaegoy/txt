@@ -24,7 +24,7 @@
 		</div>
 	</div>
 	<div class="slidecontainer">
-		<input type="range" min="0" max="1" value="0" class="slider" id="myRange" name="nightslider">
+		<input type="range" min="0" max="2" value="0" class="slider" id="myRange" name="nightslider">
 		</form> 
 		<p>Value: <span id="demo"></span></p>
 	</div>
@@ -44,7 +44,7 @@
 		if(slider.value == 1) {
 			output.innerHTML = "night";
 		}else{
-			output.innerHTML = "error: nightmode not found";
+			output.innerHTML = "rainbow mode";
 		}
 	}
 	}
