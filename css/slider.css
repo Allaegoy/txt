@@ -12,6 +12,7 @@
     opacity: 0.7;
     -webkit-transition: .2s;
     transition: opacity .2s;
+	
 }
 
 .slider:hover {
@@ -35,4 +36,8 @@
     border: 0;
     background: #ffffff;
     cursor: pointer;
+}
+
+.rainbow{
+  color: white;
 }
