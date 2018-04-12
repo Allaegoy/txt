@@ -13,6 +13,16 @@
 		</div>
 
 	</div>
+	<div class="dropdown">
+		<button class="dropbtn"> Styles Settings
+		<i class="fa fa-caret-down"></i>
+		</button>
+		<div class="dropdown-content">
+			<a href="#">Night-mode</a>
+			<a href="#">Day-mode</a>
+			<a href="#">Rainbow-mode</a>
+		</div>
+	</div>
 	<div class="slidecontainer">
 		<input type="range" min="0" max="1" value="0" class="slider" id="myRange" name="nightslider">
 		</form> 

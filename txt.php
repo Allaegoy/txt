@@ -4,7 +4,7 @@
 <html>
 <head lang="en" >
 	
-	<link rel="stylesheet" type="css/day.css" href="theme.css">
+	<link rel="stylesheet" href="css/day.css">
     
 	<title>Unicorn pasta</title>
     <meta charset="UTF-8">
