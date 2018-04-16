@@ -1,0 +1,6 @@
+
+
+TODO'S:
+ - redirect issue fixen
+ - databank opzetten
+ - Php-map structureren
