@@ -28,17 +28,15 @@
 		<input type="checkbox" id="toggle" onclick="myFunction()" />
 		<label for="toggle"></label>
 	</div>
-<script>
-function myFunction() {
-			var x = document.getElementById('pagestyle').getAttribute('href');
-			if(x == "edward.css") {
-				document.getElementById('pagestyle').setAttribute('href', 'css/day/navbar.css');
-				
-			}else{
-				document.getElementById('pagestyle').setAttribute('href', 'css/night/navbar.css');
-				
+	<script>
+	function myFunction() {
+		var x = document.getElementById('pagestyle').getAttribute('href');
+		if(x == "css/night/navbar.css") {
+			document.getElementById('pagestyle').setAttribute('href', 'css/day/navbar.css');		
+		}else{
+			document.getElementById('pagestyle').setAttribute('href', 'css/night/navbar.css');		
 		}
- 		}
+ 	}
 
 </script>
 	</div>
