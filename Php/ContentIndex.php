@@ -86,7 +86,7 @@
 </div>
 
 <script>
-		function myFunction() {
+		function kittens() {
 			var x = "http://placekitten.com/" + (document.getElementById("side").clientWidth-47-Math.floor((Math.random() * 10) + 1)).toString() + "/200";
 			img1 = document.getElementById("kitten1");
 			img1.src = x;
