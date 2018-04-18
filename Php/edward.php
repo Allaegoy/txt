@@ -57,10 +57,12 @@ function myFunction() {
 <script>
 function on() {
     document.getElementById("overlay").style.display = "block";
+	swapstylesheet('dark.css');
 }
 
 function off() {
     document.getElementById("overlay").style.display = "none";
+	swapstylesheet('dark.css');
 }
 </script>
 
@@ -74,8 +76,8 @@ function off() {
 
 <link rel="stylesheet" type="text/css" title="edward" href="edward.css">
 <link rel="alternate stylesheet" type="text/css" title="dark" href="dark.css">
-<input type="submit" onclick="switch_style('edward');return false;" name="theme" value="edward Theme" id="edward">
-// <input type="submit" onclick="switch_style('dark');return false;" name="theme" value="dark Theme" id="dark">
+<input type="submit" onclick="switch_style('edward.css');return false;" name="theme" value="edward Theme" id="edward">
+// <input type="submit" onclick="switch_style('dark.css');return false;" name="theme" value="dark Theme" id="dark">
 
      </body>
 </html>
