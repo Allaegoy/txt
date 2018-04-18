@@ -25,30 +25,21 @@
 
 	<div class="slidecontainer">
 		
-		<input type="range" min="0" max="2" value="0" class="slider" id="myRange" name="nightslider">
-		</form> 
-		<p><span class="colorwhite">Value: <span id="demo"></span></span></p>
+		<input type="checkbox" id="toggle" onclick="myFunction()" />
+		<label for="toggle"></label>
 	</div>
 <script>
-	var slider = document.getElementById("myRange");
-	var output = document.getElementById("demo");
-
-	slider.value = 0;
-
-	function showNightmodeSliderText() {
-	if (slider.value == 0){
-		output.innerHTML = "day";
-	} else {
-		if(slider.value == 1) {
-			output.innerHTML = "night";
-		}else{
-			output.innerHTML = "rainbow mode";
+function myFunction() {
+			var x = document.getElementById('pagestyle').getAttribute('href');
+			if(x == "edward.css") {
+				document.getElementById('pagestyle').setAttribute('href', 'day/mode.css');
+				
+			}else{
+				document.getElementById('pagestyle').setAttribute('href', 'night/mode.css');
+				
 		}
-	}
-	}
+ 		}
 
-	slider.oninput = showNightmodeSliderText;
-	showNightmodeSliderText();
 </script>
 	</div>
 	
