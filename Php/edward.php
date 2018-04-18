@@ -18,7 +18,7 @@
 </head>
 <body id="body" class="c-window">
 	<div class="the-container">
-		<input type="checkbox" id="toggle" onclick="myFunction()" />
+		<input type="checkbox" id="toggle"/>
 		<label for="toggle"></label>
 
 		<script>

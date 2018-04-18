@@ -1,5 +1,44 @@
 <div class="row">
     <div id="side" class="side">
+		<div class="the-container">
+			<input Checked="isNight()" type="checkbox" id="toggle"/ onclick="switchPageStyle()">
+			<label for="toggle"></label>
+		
+			<div class="day-night-cont">
+				<span class="the-sun"></span>
+				<div class="the-moon">
+					<span class="moon-inside"></span>
+				</div>
+			</div>
+		  
+			<div class="switch">
+				<div class="button">
+					<div class="b-inside">
+					</div>
+				</div>
+			</div>
+		</div>
+		<script>
+		function switchPageStyle() {
+			var x = document.getElementById('pagestyle').getAttribute('href');
+			if(x == "css/night/navbar.css") {
+				document.getElementById('pagestyle').setAttribute('href', 'css/day/navbar.css');		
+			}else{
+				document.getElementById('pagestyle').setAttribute('href', 'css/night/navbar.css');		
+			}
+		}
+		
+		function isNight() {
+			var x = document.getElementById('pagestyle').getAttribute('href');
+			if(x == "css/night/navbar.css") {
+				return true;		
+			}else{
+				return false;
+			}
+		}
+		
+
+		</script>
         <h2>About Us</h2>
         <h5>Photo of Us:</h5>
 		<img id="kitten1" src="" border="3"/>

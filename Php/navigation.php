@@ -1,8 +1,12 @@
 
 <div class="navbar">
+
 	<a href="Php/Music.php">music</a>
+	
 	<a href="Php/edward.php">Edward</a>
+	
 	<a href="Php/From.php">Add File</a>
+	
 	<div class="dropdown">
 		<button class="dropbtn">info
 		<i class="fa fa-caret-down"></i>
@@ -12,6 +16,7 @@
 			<a href="#">contact</a>
 		</div>
 	</div>
+	
 	<div class="dropdown">
 		<button class="dropbtn"> Styles Settings
 		<i class="fa fa-caret-down"></i>
@@ -22,22 +27,5 @@
 			<a href="Php/stylemode.php?mode=rainbow">Rainbow-mode</a>
 		</div>
 	</div>
-
-	<div class="the-container">
-		
-		<input type="checkbox" id="toggle" onclick="switchPageStyle()" />
-		<label for="toggle"></label>
-	</div>
-	<script>
-	function switchPageStyle() {
-		var x = document.getElementById('pagestyle').getAttribute('href');
-		if(x == "css/night/navbar.css") {
-			document.getElementById('pagestyle').setAttribute('href', 'css/day/navbar.css');		
-		}else{
-			document.getElementById('pagestyle').setAttribute('href', 'css/night/navbar.css');		
-		}
- 	}
-
-</script>
-	</div>
+</div>
 	

@@ -1,14 +1,8 @@
+/* DAY STYLES*/
 
 .the-container{
   display: block;
-  position: absolute;
-  width: 500px;
-  height: 350px;
-  margin: auto;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  position: sticky;
 }
 
 input[type=checkbox] {
@@ -16,8 +10,9 @@ input[type=checkbox] {
     visibility: hidden;
 }
 
-input#toggle[type=checkbox]{
-     display:none;
+ input#toggle[type=checkbox]{
+    display:none;
+	position: absolute;
  }
 
 
@@ -134,3 +129,28 @@ input[type=checkbox]:checked ~ .switch .button {
 input[type=checkbox]:checked ~ body {
   background: #000;
 }
+
+#overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+
+#text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+
