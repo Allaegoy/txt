@@ -22,7 +22,7 @@ session_start();
 	
     <link rel="stylesheet" href="css/txt.css">
 	<link rel="stylesheet" href="css/slider.css">
-	<link rel="stylesheet" href="css/<?php echo $mode; ?>/navbar.css">
+	<link id="pagestyle" rel="stylesheet"  href="css/<?php echo $mode; ?>/navbar.css">
 	<link rel="stylesheet" href="css/<?php echo $mode; ?>/mode.css">
 	
 	
