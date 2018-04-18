@@ -23,7 +23,7 @@
 		</div>
 	</div>
 
-	<div class="slidecontainer">
+	<div class="the-container">
 		
 		<input type="checkbox" id="toggle" onclick="myFunction()" />
 		<label for="toggle"></label>
