@@ -15,7 +15,7 @@
         <div class="fakeimg" style="height:60px;">Image</div><br>
         <div class="fakeimg" style="height:60px;">Image</div><br>
         <div class="fakeimg" style="height:60px;">Image</div>
-    </div>
+	</div>
     <div class="main">
         <h2>TITLE HEADING</h2>
         <h5>Title description, Dec 7, 2017</h5>
@@ -28,5 +28,17 @@
         <div class="fakeimg" style="height:200px;">Image</div>
         <p>Some text..</p>
         <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-    </div>
+		<h4>Tom Walker - Leave a Light On (Official Video)</h4>
+		<audio controls>
+			<source src="music/Tom Walker - Leave a Light On (Official Video).mp3" type="audio/mpeg">
+			<source src="music/Welshly Arms - Legendary.mp3" type="audio/mpeg">
+			Your browser does not support the audio element.
+		</audio>
+		<br>
+		<h4>Welshly Arms - Legendary</h4>
+		<audio controls>
+			<source src="music/Welshly Arms - Legendary.mp3" type="audio/mpeg">
+			Your browser does not support the audio element.
+		</audio>
+	</div>
 </div>
