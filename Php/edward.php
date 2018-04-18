@@ -18,14 +18,18 @@
 </head>
 <body id="body" class="c-window">
 	<div class="the-container">
-		<input type="checkbox" id="toggle"  onclick="myFunction()" />
+		<input type="checkbox" id="toggle" onclick="myFunction()" />
 		<label for="toggle"></label>
 
 		<script>
 		function myFunction() {
 			alert("The ontoggle event occured");
-			
-			document.getElementById('pagestyle').setAttribute('href', sheet);
+			var x = document.getElementById('pagestyle').getAttribute('href');
+			if(x == "edward.css") {
+				document.getElementById('pagestyle').setAttribute('href', 'dark.css');
+			}else{
+				document.getElementById('pagestyle').setAttribute('href', 'edward.css');
+			}
 		}
 		</script>
 		<div class="day-night-cont">
