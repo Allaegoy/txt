@@ -25,11 +25,11 @@
 
 	<div class="slidecontainer">
 		
-		<input type="checkbox" id="toggle" onclick="myFunction()" />
+		<input type="checkbox" id="toggle" onclick="switchPageStyle()" />
 		<label for="toggle"></label>
 	</div>
 	<script>
-	function myFunction() {
+	function switchPageStyle() {
 		var x = document.getElementById('pagestyle').getAttribute('href');
 		if(x == "css/night/navbar.css") {
 			document.getElementById('pagestyle').setAttribute('href', 'css/day/navbar.css');		
