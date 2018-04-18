@@ -32,10 +32,10 @@
 function myFunction() {
 			var x = document.getElementById('pagestyle').getAttribute('href');
 			if(x == "edward.css") {
-				document.getElementById('pagestyle').setAttribute('href', 'day/mode.css');
+				document.getElementById('pagestyle').setAttribute('href', 'css/day/navbar.css');
 				
 			}else{
-				document.getElementById('pagestyle').setAttribute('href', 'night/mode.css');
+				document.getElementById('pagestyle').setAttribute('href', 'css/night/navbar.css');
 				
 		}
  		}
