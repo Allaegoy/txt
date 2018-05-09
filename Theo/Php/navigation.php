@@ -1,8 +1,12 @@
 
 <div class="navbar">
-	<a href="#">music</a>
+
+	<a href="Php/Music.php">music</a>
+	
 	<a href="Php/edward.php">Edward</a>
+	
 	<a href="Php/From.php">Add File</a>
+	
 	<div class="dropdown">
 		<button class="dropbtn">info
 		<i class="fa fa-caret-down"></i>
@@ -12,6 +16,7 @@
 			<a href="#">contact</a>
 		</div>
 	</div>
+	
 	<div class="dropdown">
 		<button class="dropbtn"> Styles Settings
 		<i class="fa fa-caret-down"></i>
@@ -23,3 +28,4 @@
 		</div>
 	</div>
 </div>
+	

@@ -3,8 +3,6 @@
 .navbar {
     display: flex;
     background-color: #333;
-	
-
 	}
 
 /* Style the navigation bar links */
@@ -43,7 +41,7 @@
 }
 
 /* Fake image, just for this example */
-.fakeimg {
+.img {
     background-color: #aaa;
     width: 100%;
     padding: 20px;
